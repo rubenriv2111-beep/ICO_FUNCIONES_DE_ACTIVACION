@@ -1,0 +1,82 @@
+{
+  "ELGP_10ds": {
+    "clave": "ELGP_10ds",
+    "nombre": "ELGP (10 Datasets)",
+    "tiempo_s": 84.93,
+    "auc_roc": 0.99969,
+    "pr_auc": 0.99956,
+    "accuracy": 0.99746,
+    "f1_score": 0.99747,
+    "brier_score": 0.00214
+  },
+  "ELGP_5ds": {
+    "clave": "ELGP_5ds",
+    "nombre": "ELGP (5 Datasets)",
+    "tiempo_s": 84.32,
+    "auc_roc": 0.99962,
+    "pr_auc": 0.99952,
+    "accuracy": 0.9974,
+    "f1_score": 0.99741,
+    "brier_score": 0.00227
+  },
+  "LeakyReLU_025": {
+    "clave": "LeakyReLU_025",
+    "nombre": "LeakyReLU (alpha=0.25)",
+    "tiempo_s": 65.35,
+    "auc_roc": 0.9997,
+    "pr_auc": 0.99958,
+    "accuracy": 0.99784,
+    "f1_score": 0.99784,
+    "brier_score": 0.00195
+  },
+  "ReLU": {
+    "clave": "ReLU",
+    "nombre": "ReLU Est\u00e1ndar",
+    "tiempo_s": 64.12,
+    "auc_roc": 0.99979,
+    "pr_auc": 0.99974,
+    "accuracy": 0.99824,
+    "f1_score": 0.99824,
+    "brier_score": 0.00163
+  },
+  "GELU": {
+    "clave": "GELU",
+    "nombre": "GELU",
+    "tiempo_s": 65.36,
+    "auc_roc": 0.9997,
+    "pr_auc": 0.99961,
+    "accuracy": 0.99792,
+    "f1_score": 0.99792,
+    "brier_score": 0.00176
+  },
+  "Swish": {
+    "clave": "Swish",
+    "nombre": "Swish / SiLU",
+    "tiempo_s": 65.55,
+    "auc_roc": 0.99958,
+    "pr_auc": 0.99946,
+    "accuracy": 0.9973,
+    "f1_score": 0.99731,
+    "brier_score": 0.00242
+  },
+  "Tanh": {
+    "clave": "Tanh",
+    "nombre": "Tanh",
+    "tiempo_s": 66.17,
+    "auc_roc": 0.99959,
+    "pr_auc": 0.99903,
+    "accuracy": 0.99768,
+    "f1_score": 0.99769,
+    "brier_score": 0.00208
+  },
+  "Sigmoid": {
+    "clave": "Sigmoid",
+    "nombre": "Sigmoid",
+    "tiempo_s": 66.41,
+    "auc_roc": 0.99785,
+    "pr_auc": 0.99681,
+    "accuracy": 0.98226,
+    "f1_score": 0.98214,
+    "brier_score": 0.0135
+  }
+}

@@ -1,0 +1,109 @@
+# Entornos virtuales y configuracion
+.venv/
+venv/
+venv_elgp/
+env/
+.vscode/
+.idea/
+
+# Cache de Python y Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Archivos binarios pesados y modelos
+*.npz
+*.pth
+*.pt
+*.pkl
+
+# Archivos geoespaciales pesados y escenas satelitales
+*.tif
+*.TIF
+*.tiff
+*.TIFF
+*.aux.xml
+LC09_*/
+Tratado_De_Datos/
+Pre-Entrenamiento/
+mapas_qgis/
+mapas_qgis_activaciones/
+Procesamiento\ de\ imagenes/
+Procesamiento de imagenes/
+Mapa.qgz
+Zonas_Estudios.txt
+dato.py
+*.geojson
+*.docx
+
+# Scripts temporales e historicos en raiz
+analisis_preprocesamiento_geotermia*
+benchmark_cfg_real.py
+completar_reevaluacion.py
+construir_dataset.py
+ejecutar_t12.py
+evaluar_campeones_vs_baselines_t10.py
+experimento_*.py
+generar_*.py
+guardar_caches_gen.py
+pre_entrenamiento.py
+pruebas_arquitectura.*
+reporte_geotermia_final_backup.tex
+*_backup.pptx
+*_original_backup.pptx
+matriz_geotermica_*.csv
+scratch_*.py
+scratch_*.log
+test_*.py
+test_*.npz
+run_debug.py
+run_scratch.py
+dispersion_*.png
+matriz_correlacion_geofisica.png
+mapa_regional_profesional.png
+previsualizacion_mapa_geotermico.png
+
+# Duplicados sueltos en raiz (ubicados formalmente en src/, figures/, results/, documentacion/)
+/elgp_config.py
+/elgp_datos.py
+/elgp_evolucion.py
+/elgp_individuo.py
+/main_elgp.py
+/transferir_activaciones.py
+/ecuacion_ganadora.txt
+/metricas_geotermia_elgp.json
+/metricas_comparativa_activaciones_qgis.json
+/convergencia_comparativa.png
+/comparativa_mapas_activaciones_qgis.png
+/Reporte_Final_ELGP_ICO.tex
+/Presentacion_ICO_Ruben Rivera Garcia.pptx
+
+# Archivos del proyecto separado de Ciencia de Datos (ICD)
+results/*.csv
+results/*.parquet
+results/covariables.json
+results/resumen_borrador_v1.md
+figures/ablacion.png
+figures/calibracion.png
+figures/dominio_perdidas.png
+figures/fallas_poligono.png
+figures/grafico_10_mapa_susceptibilidad_espacial.png
+figures/mapa_aplicabilidad.png
+figures/mapa_coord_solas.png
+figures/mapa_coord_solas_p5.png
+figures/mapa_incertidumbre.png
+figures/mapa_muestreo.png
+figures/mapa_paneles_grupo.png
+figures/mapa_pliegues_buffer.png
+figures/mapa_puntuacion.png
+figures/ndvi_lst_poligono.png
+figures/pr_auc_por_banda.png
+
+# Directorios de experimentos brutos en cluster
+resultados_elgp/
+resultados_elgp_10datasets/
+resultados_elgp_multidataset/
+
+# Proyecto separado de Ciencia de Datos (en su propio repositorio ICD-2026)
+Proyecto_Ciencia_De_Datos/

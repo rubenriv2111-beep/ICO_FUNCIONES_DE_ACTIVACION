@@ -1,0 +1,11 @@
+=== ENSEMBLE ===
+[1] f(x) = (ReLU(x) + Cos(x) + Tanh(x) + Sigmoid(x) + Exp(-x^2) + Sin(x) + Exp(-x^2) + Exp(-x^2)) / 8 | AUC=0.9515 | Acc=89.6%
+[2] f(x) = (ReLU(x) + Cos(x) + Sin(x) + Exp(-x^2) + Sigmoid(x) + Exp(-x^2) + Exp(-x^2) + Tanh(x)) / 8 | AUC=0.948 | Acc=89.05%
+[3] f(x) = (Exp(-x^2) + Cos(x) + Sin(x) + Exp(-x^2) + Tanh(x) + Exp(-x^2) + Sigmoid(x) + ReLU(x)) / 8 | AUC=0.9535 | Acc=89.83%
+[4] f(x) = (Exp(-x^2) + Cos(x) + Exp(-x^2) + Sigmoid(x) + Tanh(x) + Sin(x) + Exp(-x^2) + ReLU(x)) / 8 | AUC=0.9535 | Acc=89.86%
+[5] f(x) = (Sin(x) + Cos(x) + Tanh(x) + Sigmoid(x) + Exp(-x^2) + Exp(-x^2) + Exp(-x^2) + Sigmoid(x)) / 8 | AUC=0.954 | Acc=90.15%
+
+ENSEMBLE FINAL:
+AUC test: 0.9555
+Accuracy test: 89.89%
+Umbral: 2.5

@@ -1,0 +1,20 @@
+{
+  "ELGP": {
+    "modelo": "ELGP",
+    "tiempo_s": 73.97,
+    "auc_roc": 0.99962,
+    "pr_auc": 0.99952,
+    "accuracy": 0.9974,
+    "f1_score": 0.99741,
+    "brier_score": 0.00227
+  },
+  "ReLU": {
+    "modelo": "RELU",
+    "tiempo_s": 74.4,
+    "auc_roc": 0.99978,
+    "pr_auc": 0.99974,
+    "accuracy": 0.99814,
+    "f1_score": 0.99814,
+    "brier_score": 0.00158
+  }
+}
